@@ -6,7 +6,7 @@
 		"node": ">=6.0.0"
 	},
 	"scripts": {
-		"build": "webpack"
+		"build": "webpack --display-reasons --display-used-exports"
 	},
 	"devDependencies": {
 		"babel-eslint": "^6.1.2",

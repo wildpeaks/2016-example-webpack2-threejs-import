@@ -72,8 +72,8 @@
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Math__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Matrix4__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Quaternion__ = __webpack_require__(3);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Vector3; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Vector3; });
 
 
 
@@ -849,8 +849,8 @@ Vector3.prototype = {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return _Math; });var _Math;
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return _Math; });
+var _Math;
 
 /**
  * @author alteredq / http://alteredqualia.com/
@@ -1027,8 +1027,8 @@ _Math = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Math__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Vector3__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Matrix4; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Matrix4; });
 
 
 /**
@@ -2015,8 +2015,8 @@ Matrix4.prototype = {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Vector3__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Quaternion; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Quaternion; });
 
 /**
  * @author mikael emtinger / http://gomo.se/

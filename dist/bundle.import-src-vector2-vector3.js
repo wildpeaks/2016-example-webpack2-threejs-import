@@ -72,8 +72,8 @@
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Math__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Matrix4__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Quaternion__ = __webpack_require__(4);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Vector3; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Vector3; });
 
 
 
@@ -849,8 +849,8 @@ Vector3.prototype = {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return _Math; });var _Math;
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return _Math; });
+var _Math;
 
 /**
  * @author alteredq / http://alteredqualia.com/
@@ -1028,7 +1028,7 @@ _Math = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math_Vector2_js__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math_Vector3_js__ = __webpack_require__(0);
 /* unused harmony reexport Vector2 */
-/* harmony reexport */ if(__webpack_require__.o(__WEBPACK_IMPORTED_MODULE_1__math_Vector3_js__, "a")) __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__math_Vector3_js__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__math_Vector3_js__["a"]; });
 
 
 
@@ -1040,8 +1040,8 @@ _Math = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Math__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Vector3__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Matrix4; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Matrix4; });
 
 
 /**
@@ -2028,8 +2028,8 @@ Matrix4.prototype = {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Vector3__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Quaternion; });
 
-/* harmony export */ __webpack_require__.d(exports, "a", function() { return Quaternion; });
 
 /**
  * @author mikael emtinger / http://gomo.se/
@@ -2626,7 +2626,8 @@ Object.assign( Quaternion, {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* unused harmony export Vector2 *//**
+/* unused harmony export Vector2 */
+/**
  * @author mrdoob / http://mrdoob.com/
  * @author philogb / http://blog.thejit.org/
  * @author egraether / http://egraether.com/
